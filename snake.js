@@ -153,7 +153,7 @@ function getRandomFood(){
 function gameloop(){
 	if(game_over==true){
 		clearInterval(f);
-		alert("Game Over");
+		alert("Game Over refresh to restart  boi ");
 		return;
 	}
 	draw();
